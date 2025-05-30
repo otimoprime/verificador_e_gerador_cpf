@@ -54,6 +54,7 @@ O código está contido na classe `CPF` no arquivo `main.py`, com os seguintes m
 
 *   `verificador_cpf(cpf)`: Valida um CPF.
 *   `gerador_cpf(cpf_formatado=True)`: Gera um CPF.
+*   `gerar_ultimos_digitos(numeros=False, cpf=None)`: Função auxiliar que calcula os dois últimos dígitos verificadores do CPF.
 *   `cpf_formatar(cpf)`: Formata um CPF no padrão `xxx.xxx.xxx-xx`.
 
 ---
