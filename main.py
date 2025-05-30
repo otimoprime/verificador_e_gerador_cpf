@@ -5,7 +5,7 @@ class CPF:
     def verificador_cpf(cpf):
         cpf = ''.join(filter(str.isdigit, cpf))
         if len(cpf) != 11:
-            return 'O CPF contém 11 digitos. Tente novamente'
+            return 'O CPF contém 11 digitos. Tente novamente.'
         if cpf == cpf[0] * len(cpf):
             return f'{cpf} não é valido por que são numeros repetidos.'
         soma = sum(int(cpf[i]) * (10 - i) for i in range(9))
