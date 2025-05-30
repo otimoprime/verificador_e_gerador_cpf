@@ -40,7 +40,9 @@ Para clonar um repositório do GitHub e obter os códigos, siga estes passos:
     ```
 
 Pronto! O repositório foi clonado para o seu computador e você pode executar o código.
-4.  Siga as instruções no menu interativo para gerar ou validar um CPF.
+
+
+Siga as instruções no menu interativo para gerar ou validar um CPF.
 
 ## Requisitos
 
